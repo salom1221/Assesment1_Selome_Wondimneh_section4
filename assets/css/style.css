@@ -119,3 +119,17 @@ footer {
     color: #fff;
     font-size: 0.9rem;
 }
+@media(min-width:768px){
+    .product-list{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap:1.5rem;
+
+    }
+    .product{
+        flex: 1 1 20%;
+        margin-bottom: 1.5rem;
+        box-sizing: border-box;
+    }
+}
